@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 5.4rem;
+  padding: 0 3.2rem;
+  position: absolute;
+  width: 100%;
+
+  &__logo {
+    min-inline-size: 245px;
+    &__image {
+      height: 30px;
+      width: 120px;
+    }
+  }
+
+  &__models {
+    list-style: none;
+    display: flex;
+  }
+
+  &__actions {
+    display: flex;
+    list-style: none;
+    min-inline-size: 245px;
+  }
+}
+
+.item {
+  & a {
+    padding: 4px 8px;
+    text-decoration: none;
+    color: rgb(57, 60, 65);
+    & span {
+      margin: 0 8px;
+      font-weight: 500;
+    }
+  }
+}

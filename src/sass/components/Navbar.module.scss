@@ -4,7 +4,9 @@
   align-items: center;
   min-height: 5.4rem;
   padding: 0 3.2rem;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   width: 100%;
 
   &__logo {
@@ -31,7 +33,7 @@
   & a {
     padding: 4px 8px;
     text-decoration: none;
-    color: rgb(57, 60, 65);
+    color: inherit;
     & span {
       margin: 0 8px;
       font-weight: 500;

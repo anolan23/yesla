@@ -8,10 +8,13 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 html {
   font-size: 62.5%; //1rem = 10px
+  scroll-snap-type: y mandatory;
+
 
   @media only screen and (max-width: 600px) {
     font-size: 50%;
@@ -21,4 +24,5 @@ html {
 body {
   box-sizing: border-box;
   padding: 0rem;
+  overscroll-behavior: none;
 }

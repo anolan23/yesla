@@ -1,6 +1,6 @@
 # Yesla
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project is for frontend practice. It is a copy of tesla.com website.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available scripts
 In the project directory, you can run:
